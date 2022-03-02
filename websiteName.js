@@ -2,7 +2,7 @@
  const btn = document.querySelector('.talk');
  const content = document.querySelector('.content');
  const YouTube = [
-     'ok boss open youtbe'
+     'ok boss open youtube'
 ];
  const Facebook = [
      'ok boss open facebook'
