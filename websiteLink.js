@@ -74,6 +74,13 @@
             speech.text = finalText; 
             window.open('https://www.google.com/')
             }
+            // song
+        if(message.includes('song')){
+            const finalText = 
+            song[Math.floor(Math.random()*song.length)];
+            speech.text = finalText; 
+            window.open('https://www.youtube.com/watch?v=71gpwkuyzN8&list=RD71gpwkuyzN8&start_radio=1')
+            }
      speech.volume = 1;
      speech.rate = 1.1;
      speech.pitch = 1;

@@ -31,6 +31,9 @@
  const Google  = [
      'opening Google sir'
 ];
+ const song  = [
+     'opening song sir'
+];
  
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
